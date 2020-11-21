@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <h1>This be the dynamic page</h1>
+    <h2>{{greeting}} {{name}}
+    </h2>
+    <h2>My Favorite Movies: </h2>
+    {%for favoriteMovie in favoriteMovies%}
+    <p>{{favoriteMovie}}</p>
+    {% endfor %}
+  </body>
+</html>
